@@ -1,114 +1,77 @@
-📊 Data Science Portfolio: Real-World Business Insights
-This repository showcases end-to-end data analysis projects based on real-world datasets across multiple industries. Each project involves data cleaning, exploration, and visualization, using Python or Excel, designed to uncover key insights for business decision-making.
+# 📊 Data Science Portfolio: Real-World Business Insights
 
-📁 Projects Overview
-1. 📺 Netflix Data Analysis
-Objective: Analyze content trends to understand viewing preferences across countries and years.
+This repository showcases **end-to-end data analysis projects** using Python and Excel across industries like entertainment, hospitality, retail, and fast food. Each project focuses on **data cleaning, exploration, and visualization** to uncover actionable business insights.
 
-✅ Highlights:
+---
 
-Genre distribution
+## 📁 Projects Overview
 
-Country-wise content count
+### 📺 Netflix Data Analysis
+**Objective**: Analyze content distribution and viewing trends on Netflix.
 
-Year-over-year trend analysis
+**Highlights**:
+- Genre and content distribution  
+- Country-wise content availability  
+- Year-wise trend analysis  
+- WordCloud for titles  
 
-WordCloud for titles
+**Libraries Used**:
+- 🐼 **pandas** – Data manipulation  
+- 📌 **numpy** – Numerical operations  
+- 📈 **matplotlib.pyplot** – Visualizations  
+- 📊 **seaborn** – Statistical plots  
 
-🔧 Libraries Used:
+---
 
-🐼 pandas – Data manipulation
+### 🏡 Airbnb Listings Analysis
+**Objective**: Derive insights from Airbnb listings to support hosts and data analysts.
 
-📌 numpy – Numerical operations
+**Highlights**:
+- Price comparison by location  
+- Availability and room type trends  
+- Heatmaps of popular areas  
+- Review scores visualization  
 
-📈 matplotlib.pyplot – Visualization
+**Libraries Used**:
+- 🐼 **pandas** – Data manipulation  
+- 📈 **matplotlib.pyplot** – Visualizations  
+- 📊 **seaborn** – Statistical plots  
 
-📊 seaborn – Statistical plots
+---
 
-2. 🏡 Airbnb Listings Analysis
-Objective: Extract valuable insights for hosts and analysts from Airbnb listings data.
+### 🛒 Ecommerce Sales Analysis
+**Objective**: Uncover patterns in regional sales performance and product trends.
 
-✅ Highlights:
+**Highlights**:
+- Monthly sales trend  
+- Top-selling categories  
+- Regional performance analysis  
+- Profit margin and revenue graphs  
 
-Price vs location
+**Libraries Used**:
+- 🐼 **pandas** – Data manipulation  
+- 📊 **plotly.express (px)** – Interactive charts  
+- 📊 **plotly.graph_objects (go)** – Custom visualizations  
+- ⚙️ **plotly.io (pio)** – Theme customization  
+- 🎨 **plotly.colors** – Color configuration  
+- ✅ `pio.templates.default = "plotly_white"` – White background for clarity  
 
-Availability trends
+---
 
-Reviews & room types
+### 🍔 McDonald's Excel Sales Dashboard (2025–26)
+**Objective**: Visualize sales performance, customer satisfaction, and profitability across countries.
 
-Heatmap of popular areas
+**Highlights**:
+- Sales by country  
+- Sales trends (2025–2026)  
+- Customer satisfaction scores  
+- KPIs using slicers and conditional formatting  
 
-🔧 Libraries Used:
+**Tools Used**:
+- 📊 **Microsoft Excel**  
+- 📌 Pivot Tables  
+- 📈 Charts & Graphs  
+- ✅ Conditional Formatting  
+- 🎯 Slicers & KPI Widgets  
 
-🐼 pandas – Data manipulation
-
-📈 matplotlib.pyplot – Visualization
-
-📊 seaborn – Statistical plots
-
-3. 🛒 Ecommerce Sales Analysis
-Objective: Discover regional sales performance, product trends, and revenue patterns.
-
-✅ Highlights:
-
-Monthly sales trends
-
-Top-selling categories
-
-Regional performance
-
-Profit margin visualization
-
-🔧 Libraries Used:
-
-🐼 pandas – Data loading & processing
-
-📊 plotly.express (px) – Quick & interactive visualizations
-
-📊 plotly.graph_objects (go) – Custom visualizations
-
-⚙️ plotly.io (pio) – Theme customization
-
-🎨 plotly.colors – Color management
-
-⚙️ pio.templates.default = "plotly_white" – Default template
-
-4. 🍔 McDonald's Sales Dashboard (Excel)
-Objective: Present 2025–26 business performance with an Excel-based dashboard.
-
-✅ Highlights:
-
-Sales by country
-
-Profit & revenue comparison
-
-Customer satisfaction score
-
-Sales trend analysis (2025–2026)
-
-Interactive KPIs and slicers
-
-🧰 Tools Used:
-
-📊 Microsoft Excel
-
-📌 Pivot Tables
-
-📈 Charts & Graphs
-
-✅ Conditional Formatting
-
-🎯 Slicers & Interactive KPIs
-
-🔧 Symbols & Libraries Reference
-
-Symbol	Library / Tool	Purpose
-🐼	pandas	Data loading and manipulation
-📌	numpy	Numerical computation
-📈	matplotlib.pyplot	Static visualization
-📊	seaborn	Enhanced statistical plots
-📊	plotly.express (px)	Quick interactive charts
-📊	plotly.graph_objects	Customizable advanced graphs
-⚙️	plotly.io (pio)	Graph customization & themes
-🎨	plotly.colors	Custom color scales
-📊	Microsoft Excel	Dashboard reporting
+---
